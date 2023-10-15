@@ -1,10 +1,14 @@
-import Image from 'next/image'
+import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const Header = dynamic(() => import("../sections/Header/Header"));
+const Logo = dynamic(() => import("../components/Logo"));
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
-      <p>yooooooo</p>
+      <Logo />
+      <Header />
     </div>
-  )
+  );
 }
