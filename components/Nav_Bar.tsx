@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import data from "@/data/buttons_text.json";
+import data from "../data/buttons_text.json";
 import Navigation from "./Navigation";
 
 function NavBar() {
