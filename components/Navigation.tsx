@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { Navigate } from "@/types/interfaces";
+import { Navigate } from "../types/interfaces";
 import data from "../data/navigation_text.json";
 
 const LINK_PROPS = {
