@@ -18,7 +18,7 @@
 
 body {
   color: #fff;
-  background-color: black;
+  /* background-color: black; */
 }
 
 @layer components {
